@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indonesian Tourism</title>
+
+    <!-- Iconscout CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- Google Fonts Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Swiper Js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="tour.css" />
+
+    <!-- Bootstrap -->
+  </head>
+
+  <body>
+    <nav>
+      <!-- Start of Navbar -->
+      <div class="container nav__container">
+        <a href="index.html"><h4>IndoTour</h4></a>
+        <ul class="nav__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="categories.html">About Indonesia</a></li>
+          <li><a href="tour.html">Hotel</a></li>
+          <li><a href="booking.html">Booking</a></li>
+        </ul>
+        <button id="open-menu-btn"><i class="uil uil-apps"></i></button>
+        <button id="close-menu-btn">
+          <i class="uil uil-times-square"></i>
+        </button>
+      </div>
+      <!-- End Of Nav Container -->
+    </nav>
+    <!-- End Of Navbar -->
+    <header>
+      <!-- Start of Header -->
+      <div class="container header__container">
+        <div class="header__left">
+          <h1>Hotel Favorit di Indonesia</h1>
+          <p>
+            Menemukan Pengalaman Menginap yang Luar Biasa di Hotel-Hotel
+            Pilihan!
+          </p>
+        </div>
+        <div class="header__right">
+          <div class="header__right-image">
+            <img src="./images/hotel.png" alt="Hotel" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End of Header -->
+    <!-- hotel -->
+
+    <section class="hotel">
+      <h2>Rating Terbaik</h2>
+      <div class="container hotel__container">
+        <article class="hotel">
+          <div class="hotel__info">
+            <h4>Four Seasons Jakarta</h4>
+            <div class="atas">
+              <span class="category__icon"
+                ><img
+                  src="images/Four Seasons Jakarta.jpg"
+                  alt="Four Seasons Jakarta"
+              /></span>
+            </div>
+            <div class="bawah">
+              <p>
+                Four Seasons Jakarta merupakan karya mendiang arsitek
+                Argentina-Amerika, Cesar Pelli. Sejumlah dekorasi hotel akan
+                memukau pengunjung seperti lampu gantung, ornamen jendela dan
+                pintu, wallpaper dinding, kolam renang outdoor bergaya resor,
+                koleksi seni dan patung lokal tentang Indonesia, dan sebagainya.
+              </p>
+              <p>
+                Lokasi : Jakarta Selatan, Jalan Gatot Subroto No.18, Kuningan
+                Barat, Kec. Mampang Prapatan.
+              </p>
+
+              <p>Rating : 5⭐</p>
+              <a href="hotel.html" class="btn btn-primary">Booking Hotel</a>
+            </div>
+          </div>
+        </article>
+        <article class="hotel">
+          <div class="hotel__info">
+            <h4>Grand Hyatt Jakarta</h4>
+            <div class="atas">
+              <span class="category__icon"
+                ><img
+                  src="images/Grand Hyatt Jakarta.png"
+                  alt="Grand Hyatt Jakarta"
+              /></span>
+            </div>
+
+            <div class="bawah">
+              <p>
+                Mengutip dari situs Grand Hyatt Jakarta, Grand Hyatt Jakarta
+                memberikan para tamu kesempatan untuk menikmati kemudahan ke
+                gedung perkantoran, kantor pemerintah, kedutaan besar, atraksi
+                budaya, dan pusat perbelanjaan.
+              </p>
+              <p>
+                Lokasi : Jakarta Pusat, Jalan M.H. Thamrin No.Kav. 28-30,
+                Gondangdia.
+              </p>
+
+              <p>Rating : 4.5⭐</p>
+              <a href="hotel.html" class="btn btn-primary">Booking Hotel</a>
+            </div>
+          </div>
+        </article>
+        <article class="hotel">
+          <div class="hotel__info">
+            <h4>Padma Resort Ubud</h4>
+            <div class="atas">
+              <span class="category__icon"
+                ><img
+                  src="images/Padma Resort Ubud.jpg"
+                  alt="Padma Resort Ubud"
+              /></span>
+            </div>
+            <div class="bawah">
+              <p>
+                Padma Resort Ubud merupakan pilihan yang tepat ketika
+                mengunjungi Payangan. Merupakan perpaduan sempurna antara
+                penghematan dan kenyamanan, properti ini menawarkan suasana yang
+                sesuai untuk keluarga dengan fasilitas yang di desain untuk
+                wisatawan seperti Anda.
+              </p>
+
+              <p>
+                Lokasi : Bali, Banjar Carik, Puhu, Payangan 80572 Indonesia.
+              </p>
+
+              <p>Rating : 5⭐</p>
+              <a href="hotel.html" class="btn btn-primary">Booking Hotel </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- End of hotel -->
+
+    <section class="faqs">
+      <!-- Start of FAQ -->
+      <h2>Frequently Asked Questions</h2>
+      <div class="container faqs__container">
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="faq__answer">
+            <h4>
+              Mengapa sebaiknya saya memilih Indonesia sebagai tujuan wisata?
+            </h4>
+            <p>
+              Indonesia merupakan surga wisata yang menawarkan keindahan alam
+              yang luar biasa, keanekaragaman budaya yang kaya, serta pengalaman
+              wisata yang tak terlupakan. Dari pantai-pantai eksotis hingga
+              gunung-gunung megah, Indonesia memiliki segalanya untuk memenuhi
+              selera petualangan dan keinginan Anda.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="faq__answer">
+            <h4>Apa yang membuat Indonesia unik sebagai destinasi wisata?</h4>
+            <p>
+              Indonesia menawarkan beragam keunikan sebagai destinasi wisata.
+              Dari candi-candi kuno hingga terumbu karang yang menakjubkan, dari
+              tradisi dan kebudayaan yang beragam hingga kuliner yang lezat,
+              setiap sudut Indonesia memiliki daya tarik yang tak tertandingi.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="faq__answer">
+            <h4>Apakah bahasa Indonesia sulit untuk dipahami?</h4>
+            <p>
+              Bahasa Indonesia relatif mudah dipahami oleh wisatawan. Banyak
+              orang Indonesia juga fasih berbahasa Inggris, terutama di
+              kota-kota besar dan destinasi wisata populer.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="faq__answer">
+            <h4>Bagaimana dengan keragaman budaya di Indonesia?</h4>
+            <p>
+              Indonesia dikenal dengan keragaman budayanya. Dari Bali yang
+              terkenal dengan upacara keagamaannya, hingga Toraja dengan tradisi
+              pemakaman yang unik, setiap daerah memiliki warisan budaya yang
+              kaya dan menarik untuk dieksplorasi.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="faq__answer">
+            <h4>Apakah Indonesia aman untuk dikunjungi?</h4>
+            <p>
+              Indonesia adalah negara yang aman untuk dikunjungi. Meskipun tetap
+              diperlukan penggunaan kejelian seperti halnya dalam perjalanan ke
+              negara lain, tujuan wisata utama di Indonesia biasanya aman dan
+              ramah bagi para wisatawan.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="faq__answer">
+            <h4>
+              Apa yang bisa saya lakukan di Indonesia selain menikmati pantai?
+            </h4>
+            <p>
+              Selain menikmati pantai yang indah, Anda dapat menjelajahi hutan
+              hujan tropis, mendaki gunung-gunung menakjubkan, mengunjungi taman
+              nasional yang kaya akan keanekaragaman hayati, dan mengalami
+              kebudayaan lokal melalui berbagai festival dan tradisi.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="faq__answer">
+            <h4>Bagaimana dengan kuliner di Indonesia?</h4>
+            <p>
+              Kuliner Indonesia sangat terkenal di seluruh dunia. Anda bisa
+              mencoba makanan lezat seperti nasi goreng, sate, rendang,
+              gado-gado, dan masih banyak lagi. Setiap daerah memiliki makanan
+              khas yang unik dan menggugah selera.
+            </p>
+          </div>
+        </article>
+        <article class="faq">
+          <div class="faq__icon"><i class="uil uil-plus"></i></div>
+          <div class="faq__answer">
+            <h4>Kapan waktu terbaik untuk mengunjungi Indonesia?</h4>
+
+            <p>
+              Waktu terbaik untuk mengunjungi Indonesia tergantung pada tujuan
+              wisata Anda. Secara umum, musim kemarau antara Mei hingga
+              September adalah waktu yang baik untuk kebanyakan wilayah di
+              Indonesia. Namun, beberapa destinasi seperti Bali dapat dikunjungi
+              sepanjang tahun.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- End of FAQ -->
+
+    <!-- Start of Testimonials -->
+
+    <section class="container testimonial__container mySwiper">
+      <h2>Tourism's Testimonials</h2>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/Cat.jpeg" alt="" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Diva Annisa Elvina</h5>
+            <small>Tourism</small>
+          </div>
+          <div class="testimonial__body">
+            <p>Makanannya murah dan enak! Saya suka , saya suka</p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/Circle-DiNa.jpg" alt="" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Andi Muhammad</h5>
+            <small>Tourism</small>
+          </div>
+          <div class="testimonial__body">
+            <p>Sangat suka pemandangan di sekitar hotel!</p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/pexels-miguel-á-padriñán-1111318.jpg" alt="" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Satria</h5>
+            <small>Tourism</small>
+          </div>
+          <div class="testimonial__body">
+            <p>Penduduk nya sangat ramah</p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/cat2.png" alt="" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Elvina</h5>
+            <small>Tourism</small>
+          </div>
+          <div class="testimonial__body">
+            <p>Transportasi nya sangat murah sekali!</p>
+          </div>
+        </article>
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="./images/pexels-ahmed-ツ-16118849.jpg" alt="" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Fadhil</h5>
+            <small>Tourism</small>
+          </div>
+          <div class="testimonial__body">
+            <p>
+              Wah! Ternyata orang sekitar saling membantu satu sama lain, itu
+              yang jarang saya dapatkan di negara saya!
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- End of Testimonials -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container footer__container">
+        <div class="footer__1">
+          <a href="index.html" class="footer__logo"><h4>IndoTour</h4></a>
+          <p>
+            Siap untuk booking tempat pilihan Anda ? Segera Contact kita
+            sekarang !
+          </p>
+        </div>
+        <div class="footer__2">
+          <h4>Peralinks</h4>
+          <ul class="permalinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categories.html">About Indonesia</a></li>
+            <li><a href="tour.html">Hotel</a></li>
+            <li><a href="booking.html">Booking</a></li>
+          </ul>
+        </div>
+        <div class="footer__3">
+          <h4>Privacy</h4>
+          <ul class="privacy">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer__4">
+          <h4>Contact Us</h4>
+          <div>
+            <p>+62 895-3991-75811</p>
+            <p>divannisa.e@gmail.com</p>
+          </div>
+
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/divannisa.e/"><i class="uil uil-instagram-alt"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="uil uil-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/diva-annisa-elvina-4b7a06197/"><i class="uil uil-linkedin-alt"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <small>Copyright &copy; Diva Annisa Elvina</small>
+      </div>
+    </footer>
+    <!-- script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
